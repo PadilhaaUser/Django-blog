@@ -19,3 +19,25 @@ env/
 
 # VS Code
 .vscode/
+
+# Environment files
+.env
+
+# Packaging
+*.egg-info/
+pip-wheel-metadata/
+
+# Test / cache
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled distributions
+dist/
+build/
+
+# Backup files
+*~
+*.bak
